@@ -25,8 +25,17 @@ let package = Package(
         ),
         .target(
             name: "LlamaSwift",
-            dependencies: ["llama-cpp"],
+            dependencies: [
+                "llama-cpp",
+                "LlamaSwiftReasoning",
+            ],
             path: "Sources/LlamaSwift"
+        ),
+        .target(
+            name: "LlamaSwiftReasoning",
+            dependencies: ["llama-cpp"],
+            path: "Sources/LlamaSwiftReasoning",
+            publicHeadersPath: "include"
         ),
         .testTarget(
             name: "LlamaTests",
