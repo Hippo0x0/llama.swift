@@ -19,9 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "llama-cpp",
-            url:
-                "https://github.com/Hippo0x0/llama.cpp/releases/download/llama-mtmd-ios-macos-20260515/llama-mtmd-ios-macos-xcframework.zip",
-            checksum: "c5e35f4d08c016c02454c8092958e79a15466e9bddc915fc2295d8aaed406a26"
+            path: "../llama.cpp/build-apple/llama.xcframework"
         ),
         .target(
             name: "LlamaSwift",
