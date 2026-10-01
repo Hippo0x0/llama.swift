@@ -20,8 +20,8 @@ let package = Package(
         .binaryTarget(
             name: "llama-cpp",
             url:
-                "https://github.com/Hippo0x0/llama.cpp/releases/download/llama-mtmd-ios-macos-jinja-chat-20260612/llama-mtmd-ios-macos-xcframework-jinja-chat-20260612.zip",
-            checksum: "2eea9d2c4f64eb0037fea889f76b38d00421f54c0a21f113b27d540bfcae41d2"
+                "https://github.com/Hippo0x0/llama.cpp/releases/download/copytain-ios-vision-20261001/llama-copytain-ios-vision-20261001.zip",
+            checksum: "477bdc54390242b8f9fff877688d823ad38b0068807f66ada44494e25d33a3bf"
         ),
         .target(
             name: "LlamaSwift",
