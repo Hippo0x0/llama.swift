@@ -20,8 +20,8 @@ let package = Package(
         .binaryTarget(
             name: "llama-cpp",
             url:
-                "https://github.com/Hippo0x0/llama.cpp/releases/download/copytain-ios-vision-20261001/llama-copytain-ios-vision-20261001.zip",
-            checksum: "477bdc54390242b8f9fff877688d823ad38b0068807f66ada44494e25d33a3bf"
+                "https://github.com/Hippo0x0/llama.cpp/releases/download/llama-gemma4-tools-20261003/llama-gemma4-tools-20261003.zip",
+            checksum: "1afcb0143665ca28771f3a4ba1a9a250cbafa4601eae4a1e7f69f53d484342ff"
         ),
         .target(
             name: "LlamaSwift",
